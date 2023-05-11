@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte · LiquidStar Games</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/soporte.css">
+    <link rel="icon" type="image/x-icon" href="../img/logoLSG.png">
+    <script type="text/javascript" src="../js/soporte.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../img/logoLSG.png" alt="LiquidStar Games" style="margin-left: 20px;">
+        <label for="menu-control" class="hamburger">
+            <i class="hamburger__icon"></i>
+            <i class="hamburger__icon"></i>
+            <i class="hamburger__icon"></i>
+          </label>
+          
+          <input type="checkbox" id="menu-control" class="menu-control">
+          
+          <aside class="sidebar">
+            
+            <nav class="sidebar__menu">
+              <a href="index.html" class="activo">Inicio</a>
+              <a href="">Juegos</a>
+              <a href="">Tienda</a>
+              <a href="">Noticias</a>
+              <a href="src/html/soporte.html">Soporte</a>
+            </nav>
+          
+            <ul class="sidebar__social">
+                <li>
+                    <p>Version 0.1</p>
+                </li>
+              </ul>
+            </aside>
+        </aside>
+    </header>
+    <main>
+        <section>
+            <h3>Soporte</h3>
+                <p>¿Tienes problemas con LiquidStar Games? Contáctanos.</p>
+            <div>
+                <div class="contacto">
+                    <label>CORREO ELECTRÓNICO</label>
+                    <input type="email" name="email" pattern="[a-z0-9._+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="ejemplo@test.com" required>
+                    <label>ASUNTO</label>
+                    <select name="asunto" id="subject" required>
+                        <option value="1">Selecciona el asunto</option>
+                        <option value="2">Me olvidé de la contraseña.</option>
+                        <option value="3">Problemas con la facturación</option>
+                        <option value="4">Problemas con la carga o el rendimiento.</option>
+                    </select>
+                    <label>MENSAJE</label>
+                    <textarea name="mensaje" rows="4" required maxlength="200" minlength="20" placeholder="Escribe el problema" ></textarea>
+                    <div class="requerido">
+                        <b style="margin-right: 5px;">¡ERROR!</b><p>Introduce valores válidos.</p>
+                    </div>
+                    <input type="submit" value="ENVIAR" onclick="enviar()">
+                </div>
+                
+            </div>
+            
+            
+        </section>
+    </main>
+</body>
+</html>

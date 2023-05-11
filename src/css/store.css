@@ -1,0 +1,43 @@
+.producto{
+    background-color: #414146;
+    border-radius: 18px;
+    padding: 1em;
+    margin: 10px
+}
+
+.producto img{
+    border-radius: 8px;
+}
+
+.producto span{
+    color: rgb(194, 194, 194);
+}
+
+#productos{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h6{
+    color: white;
+    font-size: 14px;
+}
+
+.buy button{
+    background-color: rgb(80, 91, 255);
+    border-radius: 8px;
+    padding: 10px 100px;
+    border-bottom: black 10px solid;
+    border: 0;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin-top: 18px;
+    letter-spacing: 3px;
+}
+
+.buy button:hover{
+    background: linear-gradient(55deg, rgba(80, 91, 255,1) 0%,rgb(141, 148, 241) 100%);
+}

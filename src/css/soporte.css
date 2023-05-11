@@ -1,0 +1,125 @@
+h3{
+    font-size: 28px;
+}
+
+.contacto{
+    background-color: #19191C;
+    border-radius: 18px;
+    margin-top: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+}
+
+.contacto label{
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: gray;
+    font-size: 13px;
+}
+
+section div{
+    display: flex;
+}
+
+input{
+    border-radius: 18px;
+    background-color: #252528;
+    border: 0;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 10px;
+    margin-bottom: 16px;
+    transition: ease 0.2s;
+}
+
+input:invalid{
+    outline: rgb(255, 97, 97) 3px solid;
+    background-color: rgb(53, 26, 26);
+    box-shadow: 0px 0px 12px rgba(255, 97, 97, 0.295);
+    transition: ease 0.2s;
+}
+
+input:focus-visible{
+    outline: rgb(65, 93, 255) solid 3px;
+    box-shadow: 0px 0px 12px rgba(65, 93, 255, 0.295);
+    background: rgb(33, 37, 59);
+    transition: ease 0.2s;
+}
+
+input[type=submit]{
+    background-color: rgb(65, 93, 255);
+}
+input[type=submit]:hover{
+    background-color: rgb(57, 80, 207);
+}
+
+textarea{
+    border-radius: 18px;
+    background-color: #252528;
+    border: 0;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 10px;
+    margin-bottom: 16px;
+    resize: none;
+    transition: ease 0.2s;
+}
+
+textarea:required:invalid{
+    outline: rgb(255, 97, 97) 3px solid;
+    background-color: rgb(53, 26, 26);
+    box-shadow: 0px 0px 12px rgba(255, 97, 97, 0.295);
+    transition: ease 0.2s;
+}
+
+textarea:focus-visible{
+    outline: rgb(65, 93, 255) solid 3px;
+    box-shadow: 0px 0px 12px rgba(65, 93, 255, 0.295);
+    background: rgb(33, 37, 59);
+    transition: ease 0.2s;
+}
+
+/* DESPLEGABLE */
+
+select{
+    border-radius: 18px;
+    background-color: #252528;
+    border: 0;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 10px;
+    margin-bottom: 16px;
+    transition: ease 0.2s;
+}
+
+select:invalid{
+    outline: rgb(255, 97, 97) 3px solid;
+    background-color: rgb(53, 26, 26);
+    box-shadow: 0px 0px 12px rgba(255, 97, 97, 0.295);
+    transition: ease 0.2s;
+}
+
+
+select:focus-visible{
+    outline: rgb(65, 93, 255) solid 3px;
+    box-shadow: 0px 0px 12px rgba(65, 93, 255, 0.295);
+    background: rgb(33, 37, 59);
+    transition: ease 0.2s;
+}
+
+.requerido{
+    outline: rgb(255, 97, 97) 3px solid;
+    background-color: rgb(53, 26, 26);
+    box-shadow: 0px 0px 12px rgba(255, 97, 97, 0.295);
+    color: white;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.requerido p{
+    color: white;
+}

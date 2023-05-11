@@ -1,0 +1,117 @@
+/* VERSION REDUCIDA */
+@media only screen and (max-width: 1280px){
+
+    header{
+        background-color: #19191C;
+        border-radius: 0px;
+        padding: 15px 4em;
+        display: flex;
+        user-select: none;
+        justify-content: center;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        position: static;
+        margin: 0px;
+    }
+
+    footer{
+        background-color: #19191C;
+        border-radius: 0px;
+        margin: 20px 0px 0px 0px;
+        padding: 15px 4em;
+        user-select: none;
+        justify-content: baseline;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        width: 90%;
+    }
+
+}
+/* VERSION TABLET */
+@media only screen and (max-width: 1024px){
+    body{
+        background-color: black;
+    }
+
+    header{
+        background-color: #19191C;
+        border-radius: 0px;
+        padding: 15px 4em;
+        display: flex;
+        user-select: none;
+        justify-content: center;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        position: static;
+        margin: 0px;
+    }
+
+    header img{
+        width: 70px;
+        transition: ease 0s;
+    }
+
+    header img:hover{
+        transform: scale(1);
+        transition: ease 0s;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .anuncio{
+        background: rgb(19,34,189);
+        background: linear-gradient(0deg, rgba(19,34,189,1) 0%, rgba(239,74,255,1) 55%, rgba(255,221,138,1) 100%);
+        margin: 10px;
+        border-radius: 18px;
+        color: white;
+        text-align: center;
+        padding: 3em;
+        user-select: none;
+    }
+
+    .producto{
+        background-color: #19191C;
+    }
+
+    .producto img{
+        width: 580px;
+        height: 340px;
+    }
+
+    .buy button{
+        display: none;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    .producto h6{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .producto span{
+        font-size: 16px;
+        color: rgb(80, 91, 255);
+    }
+
+    footer{
+        background-color: #19191C;
+        border-radius: 0px;
+        margin: 20px 0px 0px 0px;
+        padding: 15px 4em;
+        user-select: none;
+        justify-content: baseline;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    header img{
+        width: 90px;
+        transition: ease 0s;
+    }
+}
